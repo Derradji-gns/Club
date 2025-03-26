@@ -1,10 +1,10 @@
-function Card({title, caption}) {
+function Card({title, src, caption}) {
     return (
       <div className="grid grid-rows-2 items-center  justify-center w-90 h-30 mt-10 bg-gray-600 border-2 rounded-2xl shadow-6xl shadow-white ">
         <div className=" flex justify-start items-center  w-full h-10 mb-10  ">
           <img
             className=" h-8 w-8 ml-5 mt-10  "
-            src={"/public/vite.svg"}
+            src={src}
             alt=""
           />
           <h3 className=" text-start font-bold pl-4 mt-10 text-white text-2xl" ><a  href="#">{title}</a></h3>

@@ -1,7 +1,7 @@
 function Cer({src, name, caption }) {
     return(
-        <div className="w-70 h-80 border-2 rounded-2xl ml-5 shadow-6xl shadow-white">
-            <div className="flex items-center w-full lg:w-full h-10">
+        <div className="w-70 h-87 border-2 rounded-2xl ml-5 shadow-6xl shadow-white">
+            <div className="flex items-center w-full lg:w-full h-10 p-2">
                 <img src={src} className=" w-10 h-10  border-2 mt-4 rounded-full ml-3 "/>
                 <h4 className="text-white font-bold pl-3 pt-3">@{name}</h4>
             </div>

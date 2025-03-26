@@ -1,1 +1,19 @@
 @import "tailwindcss";
+
+crollbar-custom::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-track {
+    background: #111827; /* لون الخلفية */
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb {
+    background: #111827; /* لون المقبض */
+    border-radius: 4px;
+  }
+  
+  .scrollbar-custom::-webkit-scrollbar-thumb:hover {
+    background: #111827; /* لون المقبض عند التمرير */
+  }
+  
