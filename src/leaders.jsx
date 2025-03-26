@@ -20,7 +20,7 @@ const people = [
         imageUrl:'./graphics/walid.jpg'
     },
     {
-      name:'Derradji Amine Abdelbasset ⚜️',
+      name:'Derradji Amine Abdelbasset  🛡',
 
 
       role:'EX President of RE Department | Developer',
