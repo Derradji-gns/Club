@@ -23,8 +23,8 @@ function Projects() {
 
     }
   return (
-<div className="bg-gray-900 w-screen h-200 flex justify-center items-center">
-    <div className=" border-2  w-full h-200 ">
+<div className="bg-gray-900 w-screen h-150 flex justify-center items-center">
+    <div className="  w-full h-150 ">
          <h1 className="font-bold text-white text-2xl text-center p-10">IGENERGY Has Great Projects in Electronics</h1> 
         <div className="flex justify-center gap-5">
            <button onClick={handelClick1} className="w-25 h-9 border-2 rounded-2xl bg-gray-600 text-white">Project1</button>

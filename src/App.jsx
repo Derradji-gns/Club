@@ -6,6 +6,7 @@ import Events from './section1'
 import Leaders from './leaders'
 import Community from './com'
 import Footer from './footer'
+import Projects from './projects'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Events/>
         <Leaders/>
         <Community/>
+        <Projects/>
         <Footer/>
 
 
